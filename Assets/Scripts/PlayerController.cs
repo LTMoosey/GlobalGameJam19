@@ -38,6 +38,13 @@ public class PlayerController : MonoBehaviour {
         
         Move();
 
+        //if you press the space button, you swing your torch
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            //do swing animation
+
+        }
+
 	}
 
     //call this to move the player 1 frame
