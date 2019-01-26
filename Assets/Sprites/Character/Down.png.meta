@@ -119,8 +119,8 @@ TextureImporter:
       name: CharacterSheet_1
       rect:
         serializedVersion: 2
-        x: 461
-        y: 1434
+        x: 464
+        y: 1431
         width: 458
         height: 612
       alignment: 0
@@ -139,8 +139,8 @@ TextureImporter:
       name: CharacterSheet_2
       rect:
         serializedVersion: 2
-        x: 918
-        y: 1442
+        x: 924
+        y: 1444
         width: 456
         height: 604
       alignment: 0
@@ -159,7 +159,7 @@ TextureImporter:
       name: CharacterSheet_3
       rect:
         serializedVersion: 2
-        x: 1373
+        x: 1384
         y: 1431
         width: 457
         height: 616
@@ -179,7 +179,7 @@ TextureImporter:
       name: CharacterSheet_4
       rect:
         serializedVersion: 2
-        x: 1
+        x: 4
         y: 780
         width: 457
         height: 634
@@ -199,8 +199,8 @@ TextureImporter:
       name: CharacterSheet_5
       rect:
         serializedVersion: 2
-        x: 457
-        y: 747
+        x: 460
+        y: 750
         width: 457
         height: 667
       alignment: 0
@@ -219,7 +219,7 @@ TextureImporter:
       name: CharacterSheet_6
       rect:
         serializedVersion: 2
-        x: 914
+        x: 920
         y: 779
         width: 458
         height: 635
@@ -239,8 +239,8 @@ TextureImporter:
       name: CharacterSheet_7
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 796
+        x: 1382
+        y: 793
         width: 457
         height: 618
       alignment: 0
@@ -259,7 +259,7 @@ TextureImporter:
       name: CharacterSheet_8
       rect:
         serializedVersion: 2
-        x: 1
+        x: 4
         y: 135
         width: 453
         height: 612
@@ -279,8 +279,8 @@ TextureImporter:
       name: CharacterSheet_9
       rect:
         serializedVersion: 2
-        x: 454
-        y: 124
+        x: 462
+        y: 118
         width: 456
         height: 629
       alignment: 0
@@ -299,7 +299,7 @@ TextureImporter:
       name: CharacterSheet_10
       rect:
         serializedVersion: 2
-        x: 912
+        x: 918
         y: 104
         width: 457
         height: 660
@@ -319,8 +319,8 @@ TextureImporter:
       name: CharacterSheet_11
       rect:
         serializedVersion: 2
-        x: 1362
-        y: 85
+        x: 1376
+        y: 82
         width: 470
         height: 682
       alignment: 0
