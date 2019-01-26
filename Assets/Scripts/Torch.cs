@@ -5,7 +5,10 @@ using UnityEngine;
 public class Torch : MonoBehaviour
 {
     public GameObject CampFire;
+    public GameObject Light;
+    public float MaxRange;
     public float torchFuel = 100f;
+    private float torchScale;
     private float torchBurnRate = 1.5f;
 
     void Start()
@@ -32,6 +35,8 @@ public class Torch : MonoBehaviour
     void burnFuel()
     {
         torchFuel -= torchBurnRate * Time.deltaTime;
+        torchScale = Mathf.Clamp(torchFuel, 0, MaxRange);
+        Light.transform.localScale = new Vector3(torchScale, torchScale, torchScale);
     }
 
     //for testing purposes only

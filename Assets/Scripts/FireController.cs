@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireController : MonoBehaviour {
+    public GameObject Light;
     public float Fuel = 100;
     public float burnRate = 1;
+    public float MaxRange;
+    private float fireScale;
 
 
 
@@ -34,6 +37,8 @@ public class FireController : MonoBehaviour {
     void burnFuel()
     {
         Fuel -= burnRate * Time.deltaTime;
+        fireScale = Mathf.Clamp(Fuel, 0, MaxRange);
+        Light.transform.localScale = new Vector3(fireScale/2, fireScale/2, fireScale/2);
     }
 
     //void giveFuel(float amount)
