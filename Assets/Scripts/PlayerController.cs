@@ -6,8 +6,11 @@ public class PlayerController : MonoBehaviour {
     //movement variable
     public float movementSpeed = 20f;
 
-    //torch object (i'll make this later)
+    //torch object
+    public GameObject Torch;
 
+    //campfire object
+    public GameObject CampFire;
 
 
 	// Use this for initialization
@@ -19,6 +22,7 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
         
         Move();
+
 	}
 
     //call this to move the player 1 frame
@@ -29,8 +33,32 @@ public class PlayerController : MonoBehaviour {
 
         transform.Translate(XMovement);
         transform.Translate(YMovement);
+    }
 
+    //when you bump into the fire with wood in your inventory
+    private void giveFuel()
+    {
+        
+    }
 
+    //when you bump into the fire and press space
+    private void takeFuelForTorch(int amount)
+    {
+        CampFire.GetComponent<FireController>().Fuel -= amount;
+        Torch.GetComponent<Torch>().torchFuel += amount;
+    }
 
+    void OnCollisionBegin(Collision col)
+    {
+        Debug.Log("ALERT ALERT ALERT");
+    }
+
+    void takeFuelFromFire()
+    {
+        if (Input.GetKeyDown("e"))
+        {
+            takeFuelForTorch(10);
+            Debug.Log("Just took 10 fuel");
+        }
     }
 }

@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 710993561
+    locked: 0
+  - name: Player
+    uniqueID: 1522243315
+    locked: 0
+  - name: Torch
+    uniqueID: 237267131
+    locked: 0
+  - name: Camp Fire
+    uniqueID: 1647930383
+    locked: 0

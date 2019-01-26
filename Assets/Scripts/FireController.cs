@@ -4,38 +4,45 @@ using UnityEngine;
 
 public class FireController : MonoBehaviour {
     public float Fuel = 100;
-    public float fuelPerSecond = 1;
+    public float burnRate = 1;
 
 
 
 	// Use this for initialization
-	IEnumerator Start () {
-		while(true)
+	void Start () {
+        StartCoroutine("oneSecPrint");
+	}
+
+    IEnumerator oneSecPrint()
+    {
+        while (true)
         {
             yield return new WaitForSeconds(1f);
             OutputFuel();
         }
-	}
+    }
 	
 	// Update is called once per frame
-	void Update () {
+    void Update () {
         burnFuel();
 	}
 
     void burnFuel()
     {
-        Fuel -= fuelPerSecond * Time.deltaTime;
+        Fuel -= burnRate * Time.deltaTime;
     }
 
-    void giveFuel(float amount)
-    {
-        
-    }
+    //void giveFuel(float amount)
+    //{
+    //    //when space bar is pressed
+    //    //if player is colliding with the fire
+    //}
 
-    void receiveFuel(float amount)
-    {
-        
-    }
+    //void receiveFuel(float amount)
+    //{
+    //    //if player is colliding with fire
+    //    //give sticks from player inventory
+    //}
 
     //for testing purposes only
     void OutputFuel()
@@ -43,3 +50,4 @@ public class FireController : MonoBehaviour {
         Debug.Log("Remaining Fuel: " + Fuel);
     }
 }
+
