@@ -49,8 +49,15 @@ public class PlayerController : MonoBehaviour {
 
     private void takeFuelForTorch(int amount)
     {
-        campfireComponent.Fuel -= amount;
-        torchComponent.torchFuel += amount;
+        if (campfireComponent.Fuel > amount)
+        {
+            campfireComponent.Fuel -= amount;
+            torchComponent.torchFuel += amount;
+        }
+        else
+        {
+            Debug.Log("Not Enough Fuel!!");
+        }
     }
 
     //this function is called when you remain in contact with the fire,

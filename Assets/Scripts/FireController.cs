@@ -25,6 +25,10 @@ public class FireController : MonoBehaviour {
 	// Update is called once per frame
     void Update () {
         burnFuel();
+        if (Fuel <= 0)
+        {
+            Debug.Log("HOLY SHIT YOU DIED HOW DID YOU DIE THIS GAME IS SO EASY");
+        }
 	}
 
     void burnFuel()
