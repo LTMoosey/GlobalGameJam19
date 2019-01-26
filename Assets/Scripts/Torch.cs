@@ -17,7 +17,7 @@ public class Torch : MonoBehaviour
 
     void Update()
     {
-        
+        burnFuel();
     }
 
     IEnumerator oneSecPrint()
