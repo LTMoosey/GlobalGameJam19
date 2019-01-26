@@ -10,7 +10,9 @@ public class Torch : MonoBehaviour
 
     void Start()
     {
-        //here, the torch should get set to 0 so it is unlit at the beginning of the game
+        //here, the torch should get set to 0 so it is unlit at the beginning of the game, 
+        //but not for now cuz of testing and whatnot
+        StartCoroutine("oneSecPrint");
     }
 
     void Update()
@@ -35,6 +37,6 @@ public class Torch : MonoBehaviour
     //for testing purposes only
     void OutputFuel()
     {
-        Debug.Log("Remaining Torch Fuel: " + torchFuel);
+        Debug.Log("TORCH :: Remaining Torch Fuel: " + torchFuel);
     }
 }

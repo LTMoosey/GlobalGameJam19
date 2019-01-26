@@ -47,7 +47,7 @@ public class FireController : MonoBehaviour {
     //for testing purposes only
     void OutputFuel()
     {
-        Debug.Log("Remaining Fuel: " + Fuel);
+        Debug.Log("CAMPFIRE :: Remaining Fuel: " + Fuel);
     }
 }
 

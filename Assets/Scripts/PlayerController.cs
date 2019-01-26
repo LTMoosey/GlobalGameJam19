@@ -6,16 +6,28 @@ public class PlayerController : MonoBehaviour {
     //movement variable
     public float movementSpeed = 20f;
 
-    //torch object
+    //torch objects
     public GameObject Torch;
+    private Torch torchComponent;
 
     //campfire object
     public GameObject CampFire;
+    private FireController campfireComponent;
 
+    //number of sticks the player is currently holding
+    public int numSticks;
 
-	// Use this for initialization
-	void Start () {
-		
+    private void Awake()
+    {
+        numSticks = 0;
+        campfireComponent = CampFire.GetComponent<FireController>();
+        torchComponent = Torch.GetComponent<Torch>();
+    }
+
+    // Use this for initialization
+    void Start () {
+        numSticks = 0;
+
 	}
 	
 	// Update is called once per frame
@@ -35,30 +47,39 @@ public class PlayerController : MonoBehaviour {
         transform.Translate(YMovement);
     }
 
-    //when you bump into the fire with wood in your inventory
-    private void giveFuel()
-    {
-        
-    }
-
-    //when you bump into the fire and press space
     private void takeFuelForTorch(int amount)
     {
-        CampFire.GetComponent<FireController>().Fuel -= amount;
-        Torch.GetComponent<Torch>().torchFuel += amount;
+        campfireComponent.Fuel -= amount;
+        torchComponent.torchFuel += amount;
     }
 
-    void OnCollisionBegin(Collision col)
+    //this function is called when you remain in contact with the fire,
+    //since OnCollisionEnter2D is literally a frame window
+    //press space to deposit sticks
+    //press e to withdraw fuel from fire
+    private void OnCollisionStay2D(Collision2D col)
     {
-        Debug.Log("ALERT ALERT ALERT");
+        if(col.gameObject.name == "CampFire")
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                campfireComponent.Fuel += numSticks * 20;
+                Debug.Log("Added " + (numSticks * 20) + " to Fire");
+                //set sticks to 0
+                numSticks = 0;
+            }
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                takeFuelFromFire();
+            }
+        }
     }
 
+    //calls takeFuelForTorch with an int as a parameter
+    //we can change this specific number later, this is mostly for testing
     void takeFuelFromFire()
     {
-        if (Input.GetKeyDown("e"))
-        {
-            takeFuelForTorch(10);
-            Debug.Log("Just took 10 fuel");
-        }
+        takeFuelForTorch(10);
+        Debug.Log("Just took 10 fuel");
     }
 }
