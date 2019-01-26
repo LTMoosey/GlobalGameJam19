@@ -36,7 +36,7 @@ public class Torch : MonoBehaviour
     {
         torchFuel -= torchBurnRate * Time.deltaTime;
         torchScale = Mathf.Clamp(torchFuel, 0, MaxRange);
-        Light.transform.localScale = new Vector3(torchScale/2, torchScale/2, torchFuel/2);
+        Light.transform.localScale = new Vector3(torchScale, torchScale, torchScale);
     }
 
     //for testing purposes only

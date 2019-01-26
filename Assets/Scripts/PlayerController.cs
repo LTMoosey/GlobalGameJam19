@@ -17,11 +17,14 @@ public class PlayerController : MonoBehaviour {
     //number of sticks the player is currently holding
     public int numSticks;
 
+    private Animator anim;
+
     private void Awake()
     {
         numSticks = 0;
         campfireComponent = CampFire.GetComponent<FireController>();
         torchComponent = Torch.GetComponent<Torch>();
+        anim = GetComponent<Animator>();
     }
 
     // Use this for initialization
@@ -42,6 +45,9 @@ public class PlayerController : MonoBehaviour {
     {
         Vector3 XMovement = Vector3.right * movementSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
         Vector3 YMovement = Vector3.up * movementSpeed * Time.deltaTime * Input.GetAxis("Vertical");
+
+        anim.SetFloat("DirX", Input.GetAxis("Horizontal"));
+        anim.SetFloat("DirY", Input.GetAxis("Vertical"));
 
         transform.Translate(XMovement);
         transform.Translate(YMovement);
