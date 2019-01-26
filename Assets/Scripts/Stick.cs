@@ -18,8 +18,11 @@ public class Stick : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("You picked up a stick!");
-        Player.GetComponent<PlayerController>().numSticks++;
-        Destroy(gameObject);
+        if (collision.gameObject.name == "Player")
+        {
+            Debug.Log("You picked up a stick!");
+            Player.GetComponent<PlayerController>().numSticks++;
+            Destroy(gameObject);
+        }
     }
 }
