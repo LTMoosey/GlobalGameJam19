@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FireController : MonoBehaviour {
     public GameObject Light;
+    public GameObject player;
     public float Fuel = 100;
     public float burnRate = 1;
     public float MaxRange;
@@ -30,7 +31,7 @@ public class FireController : MonoBehaviour {
         burnFuel();
         if (Fuel <= 0)
         {
-            Debug.Log("HOLY SHIT YOU DIED HOW DID YOU DIE THIS GAME IS SO EASY");
+            player.GetComponent<PlayerController>().isDead = true;
         }
 	}
 

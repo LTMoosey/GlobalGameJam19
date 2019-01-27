@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour {
     private Animator anim;
     private AudioSource audio;
 
+    public bool isDead;
+
     private void Awake()
     {
         numSticks = 0;
@@ -35,6 +37,7 @@ public class PlayerController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         numSticks = 0;
+        isDead = false;
 
 	}
 	
@@ -134,6 +137,11 @@ public class PlayerController : MonoBehaviour {
                 takeFuelFromFire();
             }
         }
+        else if(col.gameObject.tag == "Enemies")
+        {
+            isDead = true;
+        }
+
     }
 
     //calls takeFuelForTorch with an int as a parameter
