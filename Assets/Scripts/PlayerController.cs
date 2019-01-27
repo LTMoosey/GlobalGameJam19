@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
     public bool isSwinging;
 
     private Animator anim;
+    private AudioSource audio;
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour {
         torchComponent = Torch.GetComponent<Torch>();
         anim = GetComponent<Animator>();
         isSwinging = false;
+        audio = GetComponent<AudioSource>();
     }
 
     // Use this for initialization
@@ -67,6 +69,18 @@ public class PlayerController : MonoBehaviour {
     {
         float horizAxis = Input.GetAxis("Horizontal");
         float vertAxis = Input.GetAxis("Vertical");
+
+        if(horizAxis != 0 || vertAxis != 0)
+        {
+            if(!audio.isPlaying)
+            {
+                audio.Play();
+            }
+        }
+        else
+        {
+            audio.Stop();  
+        }
 
         Vector3 XMovement = Vector3.right * movementSpeed * Time.deltaTime * horizAxis;
         Vector3 YMovement = Vector3.up * movementSpeed * Time.deltaTime * vertAxis;

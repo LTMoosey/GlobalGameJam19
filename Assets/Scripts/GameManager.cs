@@ -13,9 +13,11 @@ public class GameManager : MonoBehaviour {
         player.GetComponent<PlayerController>().enabled = false;
         mainMenu.enabled = true;
         startButton.onClick.AddListener (startClicked);
+
     }
 
-    void startClicked () {
+    void startClicked()
+    {
         player.GetComponent<PlayerController>().enabled = true;
         mainMenu.enabled = false;
     }
