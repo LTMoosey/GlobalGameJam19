@@ -259,3 +259,6 @@
 /Users/Charles/Development/Game_Jam_1/Temp/bin/Debug/UnityEditor.UI.dll
 /Users/Charles/Development/Game_Jam_1/Temp/bin/Debug/UnityEditor.UI.dll.mdb
 /Users/Charles/Development/Game_Jam_1/Temp/bin/Debug/UnityEditor.UI.xml
+C:\Users\Cade\GameDev\GGJ19 - Bonfire\Bonfire\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Cade\GameDev\GGJ19 - Bonfire\Bonfire\obj\Debug\Assembly-CSharp.dll
+C:\Users\Cade\GameDev\GGJ19 - Bonfire\Bonfire\obj\Debug\Assembly-CSharp.pdb

@@ -32,6 +32,8 @@ namespace Light2D
         public Material Material;
 
         public float LightObstacleScale = 1;
+		public float LightObstacleOffsetX = 0;
+		public float LightObstacleOffsetY = 0;
 
         private void Start()
         {
@@ -48,7 +50,8 @@ namespace Light2D
             var obstacleObj = new GameObject(gameObject.name + " Light Obstacle");
 
             obstacleObj.transform.parent = gameObject.transform;
-            obstacleObj.transform.localPosition = Vector3.zero;
+			Vector3 offset = new Vector3(LightObstacleOffsetX, LightObstacleOffsetY, 0);
+			obstacleObj.transform.localPosition = offset;
             obstacleObj.transform.localRotation = Quaternion.identity;
             obstacleObj.transform.localScale = Vector3.one*LightObstacleScale;
             if (LightingSystem.Instance != null)
