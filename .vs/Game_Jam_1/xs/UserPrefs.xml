@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{74077BC4-2025-ACD0-AEB0-331C8A57EA3D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AIController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Torch.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="36" Column="16" />
-      <File FileName="Assets/Scripts/FireController.cs" Line="30" Column="79" />
-      <File FileName="Assets/Scripts/Torch.cs" Line="40" Column="26" />
-      <File FileName="Assets/Scripts/Stick.cs" Line="23" Column="29" />
-      <File FileName="Assets/Scripts/AIController.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="57" Column="31" />
+      <File FileName="Assets/Scripts/FireController.cs" Line="33" Column="13" />
+      <File FileName="Assets/Scripts/Torch.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/Stick.cs" Line="26" Column="10" />
+      <File FileName="Assets/Scripts/AIController.cs" Line="78" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Game__Jam__1 PreferredExecutionTarget="Unity.Editor" />

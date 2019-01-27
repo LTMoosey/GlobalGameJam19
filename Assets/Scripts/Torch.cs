@@ -21,7 +21,11 @@ public class Torch : MonoBehaviour
 
     void Update()
     {
-        burnFuel();
+        if(torchFuel > 0)
+        {
+            burnFuel();
+        }
+
     }
 
     IEnumerator oneSecPrint()
