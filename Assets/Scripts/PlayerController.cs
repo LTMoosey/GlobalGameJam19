@@ -62,11 +62,23 @@ public class PlayerController : MonoBehaviour {
     //call this to move the player 1 frame
     private void Move()
     {
-        Vector3 XMovement = Vector3.right * movementSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
-        Vector3 YMovement = Vector3.up * movementSpeed * Time.deltaTime * Input.GetAxis("Vertical");
+        float horizAxis = Input.GetAxis("Horizontal");
+        float vertAxis = Input.GetAxis("Vertical");
 
-        anim.SetFloat("DirX", Input.GetAxis("Horizontal"));
-        anim.SetFloat("DirY", Input.GetAxis("Vertical"));
+        Vector3 XMovement = Vector3.right * movementSpeed * Time.deltaTime * horizAxis;
+        Vector3 YMovement = Vector3.up * movementSpeed * Time.deltaTime * vertAxis;
+
+        anim.SetFloat("DirX", horizAxis);
+        anim.SetFloat("DirY", vertAxis);
+
+        if(horizAxis != 0 || vertAxis != 0)
+        {
+            anim.SetBool("Moving", true);
+        }
+        else
+        {
+            anim.SetBool("Moving", false);
+        }
 
         transform.Translate(XMovement);
         transform.Translate(YMovement);

@@ -44,6 +44,9 @@ TagManager:
   - name: Ground
     uniqueID: 710993561
     locked: 0
+  - name: Static Objects
+    uniqueID: 1793763489
+    locked: 0
   - name: Player
     uniqueID: 1522243315
     locked: 0
@@ -52,4 +55,7 @@ TagManager:
     locked: 0
   - name: Camp Fire
     uniqueID: 1647930383
+    locked: 0
+  - name: trees
+    uniqueID: 3686393111
     locked: 0
