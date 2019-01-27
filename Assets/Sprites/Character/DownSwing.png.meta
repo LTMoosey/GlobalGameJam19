@@ -1,28 +1,29 @@
 fileFormatVersion: 2
-guid: 53e8be0c9a0f6406fbc2b6e88b319ae1
+guid: fa8df319660ee410b965a941325aaef3
 TextureImporter:
   fileIDToRecycleName:
-    21300000: upSwing_0
-    21300002: upSwing_1
-    21300004: upSwing_2
-    21300006: upSwing_3
-    21300008: upSwing_4
-    21300010: upSwing_6
-    21300012: upSwing_7
-    21300014: upSwing_8
-    21300016: upSwing_9
-    21300018: upSwing_10
-    21300020: upSwing_11
-    21300022: upSwing_12
-    21300024: upSwing_13
-    21300026: upSwing_14
-    21300028: upSwing_15
-    21300030: upSwing_18
-    21300032: upSwing_19
-    21300034: upSwing_20
-    21300036: upSwing_21
-    21300038: upSwing_22
-    21300040: upSwing_23
+    21300000: DownSwing_0
+    21300002: DownSwing_1
+    21300004: DownSwing_2
+    21300006: DownSwing_3
+    21300008: DownSwing_4
+    21300010: DownSwing_5
+    21300012: DownSwing_6
+    21300014: DownSwing_7
+    21300016: DownSwing_8
+    21300018: DownSwing_9
+    21300020: DownSwing_10
+    21300022: DownSwing_11
+    21300024: DownSwing_12
+    21300026: DownSwing_13
+    21300028: DownSwing_14
+    21300030: DownSwing_15
+    21300032: DownSwing_16
+    21300034: DownSwing_17
+    21300036: DownSwing_18
+    21300038: DownSwing_19
+    21300040: DownSwing_20
+    21300042: DownSwing_21
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -66,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: upSwing_0
+      name: DownSwing_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 509
-        width: 64
-        height: 91
+        x: 7
+        y: 3465
+        width: 540
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,19 +120,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3eb4df07e224b4eb450db1720d2d39
+      spriteID: 98c90fe033ef94a54a1a39fdf591c9a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_1
+      name: DownSwing_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 509
-        width: 65
-        height: 91
+        x: 561
+        y: 3464
+        width: 482
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,19 +140,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7729c3797ff364521a39a66e8273b844
+      spriteID: de988c266f02d40d682dd79740bc606e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_2
+      name: DownSwing_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 509
-        width: 67
-        height: 91
+        x: 1057
+        y: 3464
+        width: 463
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,19 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57a67883617704d0695f0a5ae6230db4
+      spriteID: f39abaaa0b91d419ba736fc9cdd0a94f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_3
+      name: DownSwing_3
       rect:
         serializedVersion: 2
-        x: 217
-        y: 509
-        width: 68
-        height: 91
+        x: 1529
+        y: 3464
+        width: 431
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,19 +180,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f4183c2c85754e77a19d2e8be03dc59
+      spriteID: 059083baa20664c8092422ac529d2ce8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_4
+      name: DownSwing_4
       rect:
         serializedVersion: 2
-        x: 290
-        y: 509
-        width: 69
-        height: 91
+        x: 7
+        y: 2827
+        width: 522
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,19 +200,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28fb84bb6a56347c6a8abf3a072e0713
+      spriteID: b3530e6f4cee34a69a0b4edd69ddbffb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_6
+      name: DownSwing_5
       rect:
         serializedVersion: 2
-        x: 364
-        y: 509
-        width: 71
-        height: 91
+        x: 543
+        y: 2827
+        width: 476
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,19 +220,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faeb06ed8863943f58b9d8be37d78e0e
+      spriteID: 38589753eca104ab5a8e7aaaf14d0e3e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_7
+      name: DownSwing_6
       rect:
         serializedVersion: 2
-        x: 439
-        y: 509
-        width: 72
-        height: 91
+        x: 1032
+        y: 2827
+        width: 467
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,19 +240,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2095ac2785b7440ab1af24838c7f237
+      spriteID: 571aac74fceef4b73b43b59792cc9843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_8
+      name: DownSwing_7
       rect:
         serializedVersion: 2
-        x: 515
-        y: 509
-        width: 74
-        height: 91
+        x: 1511
+        y: 2824
+        width: 438
+        height: 627
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,19 +260,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 829a1b00fea00451ca187a09a78d32be
+      spriteID: c1f7ca0aee42f42b48f7d14a16c11b0d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_9
+      name: DownSwing_8
       rect:
         serializedVersion: 2
-        x: 4
-        y: 418
-        width: 75
-        height: 90
+        x: 7
+        y: 2189
+        width: 506
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,19 +280,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39d1558d5b36f4b758f7499ece28ca61
+      spriteID: 1122e14a9da654e379072fe3891736c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_10
+      name: DownSwing_9
       rect:
         serializedVersion: 2
-        x: 82
-        y: 418
-        width: 77
-        height: 91
+        x: 525
+        y: 2189
+        width: 491
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,19 +300,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a46c23b5934674f628850f6cc564d984
+      spriteID: 2b8e12170c5244b33920c3634f08d584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_11
+      name: DownSwing_10
       rect:
         serializedVersion: 2
-        x: 162
-        y: 418
-        width: 78
-        height: 91
+        x: 1024
+        y: 2189
+        width: 472
+        height: 627
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,19 +320,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cac23d3683c04b8092a5b2bb1ee3b3a
+      spriteID: 2315b67d53c9a4e7db03f8326f39d6ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_12
+      name: DownSwing_11
       rect:
         serializedVersion: 2
-        x: 243
-        y: 418
-        width: 78
-        height: 91
+        x: 1504
+        y: 2189
+        width: 441
+        height: 627
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,19 +340,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9c09633e142440d69edb9436bceeb54
+      spriteID: 770b9828923c843a2ad3a2b75858b6a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_13
+      name: DownSwing_12
       rect:
         serializedVersion: 2
-        x: 325
-        y: 418
-        width: 77
-        height: 91
+        x: 7
+        y: 1551
+        width: 505
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,19 +360,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e876b05024b3346188d29e9b3c712258
+      spriteID: 8c6613e967c1e4226aaff14faee3ff8d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_14
+      name: DownSwing_13
       rect:
         serializedVersion: 2
-        x: 486
-        y: 418
-        width: 74
-        height: 91
+        x: 525
+        y: 1551
+        width: 476
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,19 +380,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2dca0343301f4055a8111987cabe05a
+      spriteID: 7c942bada25874104b4266c4371aea2d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_15
+      name: DownSwing_14
       rect:
         serializedVersion: 2
-        x: 406
-        y: 418
-        width: 76
-        height: 91
+        x: 1015
+        y: 1551
+        width: 474
+        height: 626
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,19 +400,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe83c2a2b607408f9f993cd2a5241d6
+      spriteID: b5e1df24e20104a9380083e985f88587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_18
+      name: DownSwing_15
       rect:
         serializedVersion: 2
-        x: 4
-        y: 327
-        width: 73
-        height: 91
+        x: 1503
+        y: 1551
+        width: 449
+        height: 626
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,19 +420,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2c8182313d6c42c3b7db548de55808f
+      spriteID: 7f1fb35851aad4938ad15d8f72d97795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_19
+      name: DownSwing_16
       rect:
         serializedVersion: 2
-        x: 81
-        y: 327
-        width: 72
-        height: 91
+        x: 7
+        y: 913
+        width: 492
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,19 +440,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c9d598eee5514ef290f06c4b399aa09
+      spriteID: 73b852e2dabf646db901ca82267b16f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_20
+      name: DownSwing_17
       rect:
         serializedVersion: 2
-        x: 157
-        y: 327
-        width: 71
-        height: 91
+        x: 513
+        y: 912
+        width: 490
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,19 +460,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9940261487aeb462e934c83c0c8c3c82
+      spriteID: 0498a00f6c20a4df4af14c2c7b49e885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_21
+      name: DownSwing_18
       rect:
         serializedVersion: 2
-        x: 232
-        y: 327
-        width: 69
-        height: 91
+        x: 1016
+        y: 912
+        width: 457
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,19 +480,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364f3abcca8674e8584a6b2d272afcb5
+      spriteID: 76745fad966654320895ec8621fc8baf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_22
+      name: DownSwing_19
       rect:
         serializedVersion: 2
-        x: 306
-        y: 327
-        width: 67
-        height: 91
+        x: 1487
+        y: 912
+        width: 449
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,19 +500,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d2f81449c0c49e8bf2576b6d64c5ed
+      spriteID: 143ae5e97de564faeba3c1bfcba2a232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upSwing_23
+      name: DownSwing_20
       rect:
         serializedVersion: 2
-        x: 379
-        y: 327
-        width: 65
-        height: 91
+        x: 7
+        y: 275
+        width: 426
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,7 +520,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e3ea30159ee4ef39e8a822130efb40
+      spriteID: 47ec2b089e06044edba7f7d4e0c35c5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 275
+        width: 420
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405e3c1488a664eb18ad09dfab329aac
       vertices: []
       indices: 
       edges: []
@@ -527,7 +548,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6961742c87ece48b8a7a329a40594a38
+    spriteID: 97d20a81f4f8d46fa8e792059e01531c
     vertices: []
     indices: 
     edges: []
