@@ -102,14 +102,14 @@ TextureImporter:
         y: 1398
         width: 444
         height: 648
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36048326ff83941eab4485c5b341dd19
+      spriteID: 23225e104809d4f9a90b5bc31bfa16fa
       vertices: []
       indices: 
       edges: []
@@ -122,14 +122,14 @@ TextureImporter:
         y: 1396
         width: 446
         height: 651
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fae3bf10dae0f4beeb6cc6797cc83f4a
+      spriteID: 8a1ec16b88f6742a8815d2da750619c6
       vertices: []
       indices: 
       edges: []
@@ -142,14 +142,14 @@ TextureImporter:
         y: 1395
         width: 447
         height: 653
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8fc9c731e8424c46965f892c7b3c051
+      spriteID: 140ac7a2617de4a82a0e8dd22d9074bd
       vertices: []
       indices: 
       edges: []
@@ -159,17 +159,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1337
-        y: 1396
+        y: 1395
         width: 459
-        height: 651
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 652
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9942e383ec5474c0f8c9dde1c4626d89
+      spriteID: a512d810d10eb4bc990c1f444585c4a6
       vertices: []
       indices: 
       edges: []
@@ -182,14 +182,14 @@ TextureImporter:
         y: 738
         width: 448
         height: 656
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e9981545c3f5441bb4e418e63beaed5
+      spriteID: e871f249821a94b37823121a107534b9
       vertices: []
       indices: 
       edges: []
@@ -199,17 +199,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 447
-        y: 736
+        y: 734
         width: 452
-        height: 658
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 660
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c5764643ff274830b85c92c446844ee
+      spriteID: e8fe0904f5bce475e9bcec7dc710f9bf
       vertices: []
       indices: 
       edges: []
@@ -222,14 +222,34 @@ TextureImporter:
         y: 737
         width: 449
         height: 656
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 420db9fa78a834002aa19614fe69cf21
+      spriteID: c87d70dec9e5e4edcb87571077f901e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_7
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 738
+        width: 447
+        height: 653
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d8f5724be0649db8a11f9ec8deace9
       vertices: []
       indices: 
       edges: []
@@ -239,57 +259,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 82
-        width: 447
-        height: 653
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6255b6045baea459f84048a7932379dc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_10
-      rect:
-        serializedVersion: 2
-        x: 892
         y: 84
         width: 446
         height: 650
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04e43ee77d3af47b288f4d0a9fd39f9c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Right_7
-      rect:
-        serializedVersion: 2
-        x: 1348
-        y: 728
-        width: 448
-        height: 673
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2866f66f9ee3441a9a636c71346b3bf3
+      spriteID: af5c8f0fc6b654ec48e61c4e0a7efebe
       vertices: []
       indices: 
       edges: []
@@ -298,18 +278,38 @@ TextureImporter:
       name: Right_9
       rect:
         serializedVersion: 2
-        x: 445
-        y: 65
-        width: 445
-        height: 668
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 446
+        y: 86
+        width: 447
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d2ee568776ea42a39b8ef3961a5cf57
+      spriteID: b6671b2a1abc24c2eb9d1c4bfd949c7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right_10
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 86
+        width: 451
+        height: 650
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dc448c6b9354340aa098be69718e61
       vertices: []
       indices: 
       edges: []
