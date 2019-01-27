@@ -44,12 +44,24 @@ public class Torch : MonoBehaviour
     {
         torchFuel -= torchBurnRate * Time.deltaTime;
 
+        float closestEnemy = 100;
         for(int i=0; i<Enemies.Length; i++)
         {
             float dist = Vector3.Distance(this.transform.position, Enemies[i].transform.position);
-            Debug.Log(dist);
+            if(dist < closestEnemy)
+            {
+                closestEnemy = dist;
+            }
         }
-        torchScale = Mathf.Clamp(torchFuel, 0, MaxRange);
+
+        if(closestEnemy*8 < MaxRange)
+        {
+            torchScale = Mathf.Clamp(torchFuel, 0, closestEnemy*8);
+        }
+        else
+        {
+            torchScale = Mathf.Clamp(torchFuel, 0, MaxRange);
+        }
         Light.transform.localScale = new Vector3(torchScale, torchScale, torchScale);
     }
 
