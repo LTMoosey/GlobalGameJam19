@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     public GameObject player;
@@ -10,6 +11,7 @@ public class GameManager : MonoBehaviour {
     public Canvas mainMenu;
     public Canvas credits;
     public Button startButton;
+    public Button returnButton;
 
 
     // Start is called before the first frame update
@@ -19,6 +21,8 @@ public class GameManager : MonoBehaviour {
         torch.GetComponent<Torch>().enabled = false;
         mainMenu.enabled = true;
         startButton.onClick.AddListener (startClicked);
+        returnButton.onClick.AddListener(returnClicked);
+        credits.enabled = false;
 
     }
 
@@ -30,10 +34,17 @@ public class GameManager : MonoBehaviour {
         mainMenu.enabled = false;
     }
 
+    void returnClicked()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
     private void Update()
     {
         if (player.GetComponent<PlayerController>().isDead)
         {
+            Debug.Log("You're dead");
             credits.enabled = true;
         }
     }

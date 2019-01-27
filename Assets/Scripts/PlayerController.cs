@@ -140,6 +140,7 @@ public class PlayerController : MonoBehaviour {
         else if(col.gameObject.tag == "Enemies")
         {
             isDead = true;
+            //Debug.Log("you're dead!");
         }
 
     }
