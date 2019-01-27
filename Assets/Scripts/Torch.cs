@@ -6,10 +6,12 @@ public class Torch : MonoBehaviour
 {
     public GameObject CampFire;
     public GameObject Light;
+    private GameObject[] Enemies;
     public float MaxRange;
     public float torchFuel = 100f;
     private float torchScale;
     private float torchBurnRate = 2f;
+    private float Range;
 
 
     void Start()
@@ -17,6 +19,7 @@ public class Torch : MonoBehaviour
         //here, the torch should get set to 0 so it is unlit at the beginning of the game, 
         //but not for now cuz of testing and whatnot
         StartCoroutine("oneSecPrint");
+        Enemies = GameObject.FindGameObjectsWithTag("Enemies");
     }
 
     void Update()
@@ -40,6 +43,12 @@ public class Torch : MonoBehaviour
     void burnFuel()
     {
         torchFuel -= torchBurnRate * Time.deltaTime;
+
+        for(int i=0; i<Enemies.Length; i++)
+        {
+            float dist = Vector3.Distance(this.transform.position, Enemies[i].transform.position);
+            Debug.Log(dist);
+        }
         torchScale = Mathf.Clamp(torchFuel, 0, MaxRange);
         Light.transform.localScale = new Vector3(torchScale, torchScale, torchScale);
     }
