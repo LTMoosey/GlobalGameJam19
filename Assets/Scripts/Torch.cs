@@ -12,6 +12,7 @@ public class Torch : MonoBehaviour
     private float torchScale;
     private float torchBurnRate = 2f;
     private float Range;
+    public float rangeScale;
 
 
     void Start()
@@ -54,9 +55,9 @@ public class Torch : MonoBehaviour
             }
         }
 
-        if(closestEnemy*8 < MaxRange)
+        if(closestEnemy*rangeScale < MaxRange)
         {
-            torchScale = Mathf.Clamp(torchFuel, 0, closestEnemy*8);
+            torchScale = Mathf.Clamp(torchFuel, 0, closestEnemy*rangeScale);
         }
         else
         {
