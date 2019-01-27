@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour {
     //number of sticks the player is currently holding
     public int numSticks;
 
+    public bool isSwinging;
+
     private Animator anim;
 
     private void Awake()
@@ -25,6 +27,7 @@ public class PlayerController : MonoBehaviour {
         campfireComponent = CampFire.GetComponent<FireController>();
         torchComponent = Torch.GetComponent<Torch>();
         anim = GetComponent<Animator>();
+        isSwinging = false;
     }
 
     // Use this for initialization
@@ -41,8 +44,17 @@ public class PlayerController : MonoBehaviour {
         //if you press the space button, you swing your torch
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            //take 5 fuel from torch if there is enough fuel
+            if(torchComponent.torchFuel >= 5)
+            {
+                torchComponent.torchFuel -= 5;
+            }
+
             //do swing animation
 
+            //set isSwinging to true
+            Debug.Log("Miss me with that torch shit");
+            isSwinging = true;
         }
 
 	}
