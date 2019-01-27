@@ -40,8 +40,10 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        Move();
+        if(!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            Move();
+        }
 
         //if you press the space button, you swing your torch
         if(Input.GetKeyDown(KeyCode.Space))
@@ -53,6 +55,7 @@ public class PlayerController : MonoBehaviour {
             }
 
             //do swing animation
+            anim.SetTrigger("Swing");
 
             //set isSwinging to true
             Debug.Log("Miss me with that torch shit");
