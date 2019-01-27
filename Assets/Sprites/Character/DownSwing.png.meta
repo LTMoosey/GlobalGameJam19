@@ -109,10 +109,10 @@ TextureImporter:
       name: DownSwing_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 3465
-        width: 540
-        height: 624
+        x: 40
+        y: 3431
+        width: 480
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c90fe033ef94a54a1a39fdf591c9a6
+      spriteID: 1a62fe43017984bd99dfb9e8f76b394a
       vertices: []
       indices: 
       edges: []
@@ -129,9 +129,9 @@ TextureImporter:
       name: DownSwing_1
       rect:
         serializedVersion: 2
-        x: 561
-        y: 3464
-        width: 482
+        x: 531
+        y: 3431
+        width: 466
         height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -140,7 +140,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de988c266f02d40d682dd79740bc606e
+      spriteID: e0796a1425e8b4c0ead39b87ca1719b7
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: DownSwing_2
       rect:
         serializedVersion: 2
-        x: 1057
-        y: 3464
-        width: 463
+        x: 1011
+        y: 3431
+        width: 461
         height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -160,7 +160,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f39abaaa0b91d419ba736fc9cdd0a94f
+      spriteID: 82082069e660f4268bd9dfd559de4664
       vertices: []
       indices: 
       edges: []
@@ -169,10 +169,10 @@ TextureImporter:
       name: DownSwing_3
       rect:
         serializedVersion: 2
-        x: 1529
-        y: 3464
-        width: 431
-        height: 625
+        x: 1485
+        y: 3431
+        width: 451
+        height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,7 +180,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 059083baa20664c8092422ac529d2ce8
+      spriteID: 666430158b7154400bcaf87e0f51fa83
       vertices: []
       indices: 
       edges: []
@@ -189,10 +189,10 @@ TextureImporter:
       name: DownSwing_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 2827
-        width: 522
-        height: 624
+        x: 1947
+        y: 3431
+        width: 438
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,7 +200,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3530e6f4cee34a69a0b4edd69ddbffb
+      spriteID: a4f5c59c84fbf437fafacf805db9f217
       vertices: []
       indices: 
       edges: []
@@ -209,9 +209,9 @@ TextureImporter:
       name: DownSwing_5
       rect:
         serializedVersion: 2
-        x: 543
-        y: 2827
-        width: 476
+        x: 2399
+        y: 3431
+        width: 428
         height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -220,7 +220,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38589753eca104ab5a8e7aaaf14d0e3e
+      spriteID: 9068f8a48e8d047db8d261ebc08cbb9d
       vertices: []
       indices: 
       edges: []
@@ -229,10 +229,10 @@ TextureImporter:
       name: DownSwing_6
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 2827
-        width: 467
-        height: 624
+        x: 2840
+        y: 3431
+        width: 419
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,7 +240,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571aac74fceef4b73b43b59792cc9843
+      spriteID: a06c34bcdc36c48d9a6481b662ff2496
       vertices: []
       indices: 
       edges: []
@@ -249,10 +249,10 @@ TextureImporter:
       name: DownSwing_7
       rect:
         serializedVersion: 2
-        x: 1511
-        y: 2824
-        width: 438
-        height: 627
+        x: 3272
+        y: 3431
+        width: 427
+        height: 625
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,7 +260,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f7ca0aee42f42b48f7d14a16c11b0d
+      spriteID: 2b169a04daa9646398c2557fe72b890f
       vertices: []
       indices: 
       edges: []
@@ -269,9 +269,9 @@ TextureImporter:
       name: DownSwing_8
       rect:
         serializedVersion: 2
-        x: 7
-        y: 2189
-        width: 506
+        x: 40
+        y: 2793
+        width: 440
         height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -280,7 +280,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1122e14a9da654e379072fe3891736c3
+      spriteID: c55f26bc527464d64a86534041323923
       vertices: []
       indices: 
       edges: []
@@ -289,8 +289,208 @@ TextureImporter:
       name: DownSwing_9
       rect:
         serializedVersion: 2
-        x: 525
-        y: 2189
+        x: 493
+        y: 2793
+        width: 451
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679bb9e9adcdd476e86905ca473a9e1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_10
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2792
+        width: 464
+        height: 625
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540acaf01d0fe4edebc9c939f42aae2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_11
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 2792
+        width: 466
+        height: 625
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f12957ce27714f2690a4a39ee1784f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_12
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2793
+        width: 475
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f704418a39449ab873ccf7d8ae185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_13
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 2792
+        width: 488
+        height: 625
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411bd2058448847d48cc2ea964ca1fd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_14
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 2792
+        width: 507
+        height: 625
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62145424c7f14ede9191d0a0d254d13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_15
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 2792
+        width: 542
+        height: 625
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18423a82b8844ca485500d78526b751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2155
+        width: 524
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2446622dce33b471a865681a7f7b0182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2155
+        width: 507
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82292e36d6fd458aa55eb993dccf4f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_18
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 2152
+        width: 498
+        height: 627
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74eb6749bf2349218caffad05c687a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSwing_19
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2155
         width: 491
         height: 624
       alignment: 7
@@ -300,207 +500,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8e12170c5244b33920c3634f08d584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_10
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 2189
-        width: 472
-        height: 627
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2315b67d53c9a4e7db03f8326f39d6ab
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_11
-      rect:
-        serializedVersion: 2
-        x: 1504
-        y: 2189
-        width: 441
-        height: 627
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 770b9828923c843a2ad3a2b75858b6a4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_12
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 1551
-        width: 505
-        height: 625
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c6613e967c1e4226aaff14faee3ff8d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_13
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 1551
-        width: 476
-        height: 625
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c942bada25874104b4266c4371aea2d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_14
-      rect:
-        serializedVersion: 2
-        x: 1015
-        y: 1551
-        width: 474
-        height: 626
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5e1df24e20104a9380083e985f88587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_15
-      rect:
-        serializedVersion: 2
-        x: 1503
-        y: 1551
-        width: 449
-        height: 626
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f1fb35851aad4938ad15d8f72d97795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_16
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 913
-        width: 492
-        height: 624
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73b852e2dabf646db901ca82267b16f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_17
-      rect:
-        serializedVersion: 2
-        x: 513
-        y: 912
-        width: 490
-        height: 625
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0498a00f6c20a4df4af14c2c7b49e885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_18
-      rect:
-        serializedVersion: 2
-        x: 1016
-        y: 912
-        width: 457
-        height: 625
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76745fad966654320895ec8621fc8baf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DownSwing_19
-      rect:
-        serializedVersion: 2
-        x: 1487
-        y: 912
-        width: 449
-        height: 625
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 143ae5e97de564faeba3c1bfcba2a232
+      spriteID: 95ef46b9d8c944fe59e46b7f0d7fbdbc
       vertices: []
       indices: 
       edges: []
@@ -509,9 +509,9 @@ TextureImporter:
       name: DownSwing_20
       rect:
         serializedVersion: 2
-        x: 7
-        y: 275
-        width: 426
+        x: 2107
+        y: 2155
+        width: 484
         height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -520,7 +520,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ec2b089e06044edba7f7d4e0c35c5f
+      spriteID: 363ee752549bd41c28016553615c99c6
       vertices: []
       indices: 
       edges: []
@@ -529,9 +529,9 @@ TextureImporter:
       name: DownSwing_21
       rect:
         serializedVersion: 2
-        x: 445
-        y: 275
-        width: 420
+        x: 2605
+        y: 2155
+        width: 476
         height: 624
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -540,7 +540,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 405e3c1488a664eb18ad09dfab329aac
+      spriteID: 79aede35c8f7e4633be277eefb6fbf78
       vertices: []
       indices: 
       edges: []
