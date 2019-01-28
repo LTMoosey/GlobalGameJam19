@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour {
         }
 
         //if you press the space button, you swing your torch
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
             //take 5 fuel from torch if there is enough fuel
             if(torchComponent.torchFuel >= 5)
@@ -127,8 +127,8 @@ public class PlayerController : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                campfireComponent.Fuel += numSticks * 20;
-                Debug.Log("Added " + (numSticks * 20) + " to Fire");
+                campfireComponent.Fuel += numSticks ;
+                Debug.Log("Added " + (numSticks) + " to Fire");
                 //set sticks to 0
                 numSticks = 0;
             }
@@ -137,7 +137,7 @@ public class PlayerController : MonoBehaviour {
                 takeFuelFromFire();
             }
         }
-        else if(col.gameObject.tag == "Enemies")
+        else if(col.gameObject.name == "Enemy" || col.gameObject.name == "House")
         {
             isDead = true;
             //Debug.Log("you're dead!");

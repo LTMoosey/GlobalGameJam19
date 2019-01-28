@@ -29,11 +29,11 @@ public class FireController : MonoBehaviour {
 	// Update is called once per frame
     void Update () {
         burnFuel();
-        if (Fuel <= 0)
-        {
-            player.GetComponent<PlayerController>().isDead = true;
-            //Debug.Log("You're dead!");
-        }
+        // if (Fuel <= 0)
+        // {
+        //     player.GetComponent<PlayerController>().isDead = true;
+        //     //Debug.Log("You're dead!");
+        // }
 	}
 
     void burnFuel()

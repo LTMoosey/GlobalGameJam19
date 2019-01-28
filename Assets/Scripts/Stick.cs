@@ -5,6 +5,7 @@ using UnityEngine;
 public class Stick : MonoBehaviour
 {
     public GameObject Player;
+    public int stickValue = 20;
     void Start()
     {
         
@@ -21,7 +22,7 @@ public class Stick : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             Debug.Log("You picked up a stick!");
-            Player.GetComponent<PlayerController>().numSticks++;
+            Player.GetComponent<PlayerController>().numSticks += stickValue;
             Destroy(gameObject);
         }
     }

@@ -10,7 +10,7 @@ public class Torch : MonoBehaviour
     public float MaxRange;
     public float torchFuel = 100f;
     private float torchScale;
-    private float torchBurnRate = 10f;
+    public float torchBurnRate = 10f;
     private float Range;
     public float rangeScale;
 
