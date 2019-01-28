@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour {
 
     void returnClicked()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 
